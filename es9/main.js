@@ -4,6 +4,6 @@ let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
 }
-console.log(sum);
+console.log(`questa è la somma ${sum}`);
 const media = sum / numbers.length
-console.log(media);
+console.log(`questa è la media ${media}`);
