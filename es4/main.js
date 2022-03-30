@@ -3,10 +3,12 @@ const richiestaPartecipante = prompt(`inserisci il nome del partecipante`)
 let Partecipazione = false
 for (let i = 0; i < partecipanti.length; i++) {
     let partecipe = partecipanti[i];
-    if (partecipe = richiestaPartecipante) {
+    if (partecipe == richiestaPartecipante) {
         Partecipazione = true
     }
 }
-if (Partecipazione = true) {
+if (Partecipazione == true) {
     console.log(`puoi entrare`);
+} else {
+    console.log(`amico mio oggi non puoi entrare`);
 }
