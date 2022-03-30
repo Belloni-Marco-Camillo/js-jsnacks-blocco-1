@@ -1,8 +1,9 @@
-const numbers = [];
-let numberSum = 0
+let numberSum, number_users;
+numberSum = 0
+
 
 for (i = 0; i < 3; i++) {
-    let number = numbers.push(prompt(`inserisci un numero`))
-    numberSum = numberSum + number
+    number_users = parseInt(prompt(`inserisci un numero`))
+    numberSum = numberSum + number_users
 }
 console.log(numberSum);
